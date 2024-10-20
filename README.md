@@ -74,4 +74,12 @@ Antes de começar, certifique-se de ter o seguinte software instalado:
 - [React Router](https://reactrouter.com/) (opcional, para roteamento)
 - [Axios](https://axios-http.com/) (opcional, para requisições HTTP)
 
+### Mudança de URL para Ambiente Local
+
+Na pasta `services`, dentro do arquivo `api.ts`, é importante ajustar a URL do endpoint para apontar para o ambiente local durante o desenvolvimento. Isso garante que você consiga testar a aplicação localmente antes de fazer o deploy. Altere o apontamento para a seguinte URL:
+
+```typescript
+const api = axios.create({
+  baseURL: 'http://localhost:3000/api',
+});
 
