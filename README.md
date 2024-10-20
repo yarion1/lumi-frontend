@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# Aplicação em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação desenvolvida em React. Abaixo estão as instruções para configurar e iniciar o ambiente localmente.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+Antes de começar, certifique-se de ter o seguinte software instalado:
 
-### `npm start`
+- [Node.js](https://nodejs.org) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/) (gerenciador de pacotes)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone o repositório para sua máquina local usando o comando:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/yarion1/lumi-frontend
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navegue até o diretório do projeto:
 
-### `npm run build`
+   ```bash
+   cd lumi-frontend
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instale as dependências necessárias:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Com npm:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+   ou com yarn:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   yarn install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Executando a Aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Inicie o servidor de desenvolvimento:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   Com npm:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ou com yarn:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   yarn start
+   ```
+
+2. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para ver a aplicação rodando.
+
+## Scripts Disponíveis
+
+- `npm start` ou `yarn start`: Executa a aplicação em modo de desenvolvimento.
+- `npm run build` ou `yarn build`: Compila a aplicação para produção.
+- `npm test` ou `yarn test`: Executa os testes unitários.
+
+## Estrutura do Projeto
+
+- `src/`: Contém o código-fonte da aplicação.
+  - `components/`: Componentes reutilizáveis.
+  - `pages/`: Páginas principais da aplicação.
+  - `App.js`: Componente principal.
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/) (opcional, para roteamento)
+- [Axios](https://axios-http.com/) (opcional, para requisições HTTP)
+
+
